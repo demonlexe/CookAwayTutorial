@@ -1,0 +1,37 @@
+{
+  "name": "CookAway!",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "CommonScripts": {
+        "$path": "src/shared"
+      },
+      "Knit": {
+        "$path": "src/Knit"
+      },
+      "Config": {
+        "$path": "src/configTutorial"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "ClientCharacter": {
+          "$path": "src/clientChar"
+        }
+      },
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
